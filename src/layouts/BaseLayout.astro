@@ -1,0 +1,666 @@
+---
+import ProductItem from "../components/ProductItem.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP.CO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <section id="logo-name">
+                <div>Shop.co</div>
+            </section>
+            <section id="shop-links">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </section>
+            <section id="search-bar">
+                <input type="text" placeholder="Search for products...">
+            </section>
+            <section id="user-links">
+                <ul>
+                    <li><a href=""><img src="/img/online-shopping.png" alt=""></a></li>
+                    <li><a href=""><img src="/img/user.png" alt=""></a></li>
+                </ul>
+            </section>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <section id="header-left">
+                <section id="header-title">
+                    <h1>Find Clothes That matches your style</h1>
+                    <small>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</small>
+                    <a href="#">Shop Now</a>
+                </section>
+                <section id="stats">
+                    <ul>
+                        <li>
+                            <strong>200+</strong>
+                            <small>International Brands</small>
+                        </li>
+                        <li>
+                            <strong>2,000+</strong>
+                            <small>High-Quality Products</small>
+                        </li>
+                        <li>
+                            <strong>30,000+</strong>
+                            <small>Happy Customers</small>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section id="header-image">
+                <img src="https://placehold.co/800x800" alt="">
+            </section>
+        </div>
+    </header>
+    <section id="brand-logos">
+        <div class="container">
+            <img src="https://placehold.co/150x50" alt="">
+            <img src="https://placehold.co/150x50" alt="">
+            <img src="https://placehold.co/150x50" alt="">
+            <img src="https://placehold.co/150x50" alt="">
+            <img src="https://placehold.co/150x50" alt="">
+        </div>
+    </section>
+    <section id="new-arrivals">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <section id="new-arrivals-product-list">
+                <ProductItem name="T-SHIRT WITH TAPE DETAILS" star="4.5" price="120" img="https://placehold.co/200x200" />
+                <ProductItem name="SKINNY FIT JEANS" star="4.5" price="240" normalprice="$260" img="https://placehold.co/200x200" />
+                <ProductItem name="CHECKERED SHIRT" star="3.5" price="180" img="https://placehold.co/200x200" />
+                <ProductItem name="SLEEVE STRIPED T-SHIRT" star="4.5" price="130" normalprice="$160" img="https://placehold.co/200x200" />
+            </section>
+        </div>
+    </section>
+    <section id="view-all">
+        <div class="container"><a href="#">View All</a></div>
+    </section>
+    <section id="top-selling">
+        <div class="container">
+            <h4>Top Selling</h4>
+            <section id="top-selling-product-list">
+                <ProductItem name="CASUAL SHIRT" star="5.0" price="212" normalprice="$232" img="https://placehold.co/200x200" />
+                <ProductItem name="DENIM JACKET" star="4.0" price="145" img="https://placehold.co/200x200" />
+                <ProductItem name="SPORTS SHOES" star="3.0" price="80" img="https://placehold.co/200x200" />
+                <ProductItem name="LEATHER BELT" star="4.5" price="210" img="https://placehold.co/200x200" />
+            </section>
+        </div>
+    </section>
+    <section id="view-all">
+        <div class="container"><a href="#">View All</a></div>
+    </section>
+    <section id ="browse-by">
+        <div class="container">
+            <h5>BROWSE BY dress STYLE</h5>
+            <section id="browse-by-product-list">
+                <div id="browse-by-item-casual" class="browse-by-item">
+                    <strong>Casual</strong>
+                </div>
+                <div id="browse-by-item-formal"  class="browse-by-item">
+                    <strong>Formal</strong>
+                </div>
+                <div  id="browse-by-item-party" class="browse-by-item">
+                    <strong>Party</strong>
+                </div>
+                <div  id="browse-by-item-gym" class="browse-by-item">
+                    <strong>Gym</strong>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="customer-reviews">
+        <div class="container">
+            <h6>Our Happy Customers</h6>
+            <section id="reviews">
+                <section>
+                    <h1>⭐⭐⭐⭐⭐</h1>
+                    <strong>Sarah M.</strong>
+                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                </section>
+                <section>
+                    <h1>⭐⭐⭐⭐⭐</h1>
+                    <strong>Alex K.</strong>
+                    <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+                </section>
+                <section>
+                    <h1>⭐⭐⭐⭐⭐</h1>
+                    <strong>James L.</strong>
+                    <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+                </section>
+            </section>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container">
+            <section>
+                <section>
+                    <h1>STAY UPTO DATE ABOUT <br>OUR LATEST OFFERS</h1>
+                </section>
+                <section id="newsletter-form">
+                    <input type="email" placeholder="✉︎ Enter your email address ">
+                    <button>Subscribe to Newsletter</button>
+                </section>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <section id="footer-top">
+                <section id="footer-top-left">
+                    <strong>SHOP.CO</strong>
+                    <small>We have clothes that suits your style and which you’re proud to wear. From women to men.</small>
+                    <section>
+                        <a href=""><img src="https://placehold.co/50x50" alt=""></a>
+                        <a href=""><img src="https://placehold.co/50x50" alt=""></a>
+                        <a href=""><img src="https://placehold.co/50x50" alt=""></a>
+                        <a href=""><img src="https://placehold.co/50x50" alt=""></a>
+                    </section>
+                </section>
+                <section id="footer-top-right">
+                    <section>
+                        <h1>Company</h1>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Career</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Help</h1>
+                        <ul>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="#">Delivery Deatils</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>FAQ</h1>
+                        <ul>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Manage Deliveries</a></li>
+                            <li><a href="#">Orders</a></li>
+                            <li><a href="#">Payments</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Resources</h1>
+                        <ul>
+                            <li><a href="#">Free eBooks</a></li>
+                            <li><a href="#">Development Tutorial</a></li>
+                            <li><a href="#">How to - Blog</a></li>
+                            <li><a href="#">Youtube Playlist</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section id="footer-bottom">
+                <section>
+                    <small>Shop.co © 2000-2025. All Rights Reserved</small>
+                </section>
+                <section>
+                    <ul>
+                        <li><img src="https://placehold.co/35x35" alt=""></li>
+                        <li><img src="https://placehold.co/35x35" alt=""></li>
+                        <li><img src="https://placehold.co/35x35" alt=""></li>
+                        <li><img src="https://placehold.co/35x35" alt=""></li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+        margin: 0 auto;
+        background-color: #f8f8f8;
+        gap: 1em;
+    }
+    #logo-name {
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    #shop-links ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-right: 2em;
+        gap: 2em;
+        li {
+            a {
+                white-space: nowrap;
+                text-decoration: none;
+                color: #333;
+            }
+         }
+    }
+    #search-bar {
+        flex-grow: 1;
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 9999px;
+        }
+    }
+    #user-links ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        li {
+            margin-left: 1em;
+            a img {
+                width: 1.25em;
+                height: 1.25em;
+            }
+        }
+    }
+    header .container{
+        display: flex;
+        gap: 1em;
+        img {
+            width: 100%;
+        }
+    }
+    #header-left {
+        padding: 1em;
+        align-self: center;
+    }
+    #header-title {
+        padding: 0 2em;
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            margin-bottom: 0.5em;
+        }
+        small {
+            display: block;
+            color: #666;
+            margin-bottom: 2em;
+        }
+        a {
+            display: inline-block;
+            padding: .75em 2.5em;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            border-radius: 9999px;
+        }
+    }
+    #stats {
+        padding: 2em 2em;
+        ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            gap: 1em;
+            li {
+                padding: 0 1em;
+                strong {
+                    display: block;
+                    font-size: 1.5em;
+                    color: #000000;
+                }
+                small {
+                    color: #666;
+                }
+            }
+            li + li {
+                border-left: 1px solid #ccc;
+            }
+        }
+    }
+    #header-image .container{
+        align-self: flex-end;
+        img {
+            max-width: 100%;
+            max-height: 450px;
+        }
+    }
+    #brand-logos {
+        background-color: rgb(0, 0, 0);
+    }
+    #brand-logos .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+        padding: 2em 2em;
+    }
+    #new-arrivals {
+        padding: 2em 1em;
+        h2 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2.5em;
+        }
+    }
+    #new-arrivals-product-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+    }
+    #view-all {
+        text-align: center;
+        margin: 2em;
+        a {
+            font-size: 1em;
+            color: black;
+            text-decoration: none;
+        }
+    }
+    #top-selling {
+        padding: 2em 1em;
+        max-width: 100%;
+        h4 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2.5em;
+        }
+    }
+    #top-selling-product-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+    }
+    #browse-by .container{
+        
+        padding: 2em;
+        h5 {
+            text-transform: uppercase;
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+    }
+    #browse-by-product-list {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 1em;
+        .browse-by-item {
+            padding: 1em;
+            background-color: #f0f0f0;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 1.25em;
+            strong {
+                display: inline-block;
+                font-weight: bold;
+                color: #333;
+            }
+        }
+    }
+    #browse-by-item-casual, #browse-by-item-gym {
+        grid-column: span 3 / span 3;
+        background-image: url("https://placehold.co/400x400");
+    }
+    #browse-by-item-formal, #browse-by-item-party {
+        grid-column: span 4 / span 4;
+        background-image: url("https://placehold.co/400x400");
+    }
+    #customer-reviews {
+        padding: 2em;
+        h6 {
+            text-transform: uppercase;
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+    }
+    #reviews {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        section {
+            background-color: #e0e0e0;
+            padding: 2em;
+            border-radius: 0.5em;
+            h1 {
+                font-size: .75em;
+            }
+            strong {
+                font-size: 1.25em;
+                display: block;
+                font-weight: bold;
+            }
+            p {
+                margin-top: 0.5em;
+                color: #666;
+            }
+        }
+    }
+    #newsletter .container {
+        background-color: #000000;
+        border-radius: .5em;
+        margin: 2em auto;
+        margin-top: 4em;
+        padding: 0 3em;
+        section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            h1 {
+                font-size: 2em;
+                color: white;
+            }
+            #newsletter-form {
+                display: flex;
+                flex-direction: column;
+                gap: .5em;
+                input {
+                    padding: 0.75em 1em;
+                    border-radius: 9999px;
+                    border: none;
+                    width: 100%;
+                }
+                button {
+                    padding: 0.75em 5em;
+                    background-color: #ffffff;
+                    color: rgb(0, 0, 0);
+                    border: none;
+                    border-radius: 9999px;
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    #footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        gap: 4em;
+        background-color: #ffffff;
+        #footer-top-left {
+            width: 30%;
+            strong {
+                font-size: 1.5em;
+                display: block;
+            }
+            small {
+                display: block;
+                margin-top: 1em;
+            }
+            section a img {
+                width: 2em;
+                height: 2em;
+                margin: 1em 0;
+                margin-right: 0.5em;
+            }
+        }
+        #footer-top-right {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3em;
+            section {
+                h1 {
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    font-size: 1em;
+                    margin: 0;
+                }
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    li {
+                        font-size: 1em;
+                        margin: 1em 0;
+                    }
+                    li a {
+                        white-space: nowrap;
+                        text-decoration: none;
+                        color: #333;
+                    }
+                }
+            }
+        }
+    }
+    #footer-bottom {
+        border-top: 1px solid #e0e0e0;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 2em;
+        background-color: #f8f8f8;
+        section {
+            small {
+                color: #666;
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                li {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        body {
+            margin: 0 auto;
+        }
+        #shop-links, #search-bar {
+            display: none;
+        }
+        #user-links ul {
+            margin-right: auto;
+        }
+        header .container {
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+        #header-left {
+            padding: 0;
+        }
+        #header-title a {
+            width: 100%;
+            text-align: center;
+        }
+        #stats ul li{
+            text-align: center;
+        }
+        #header-image {
+            margin-top: -1em;
+        }
+        #new-arrivals-product-list,#top-selling-product-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #browse-by-product-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #browse-by-item-casual ,#browse-by-item-formal, #browse-by-item-party, #browse-by-item-gym {
+            grid-column: span 2 / span 2;
+        }
+        #reviews {
+            grid-template-columns: 1fr;
+        }
+        #newsletter .container{
+            margin: 0 1em;
+            margin-top: 3em;
+            border-radius: 1.5em;
+        }
+        #newsletter .container section {
+            flex-direction: column;
+            h1 {
+                margin: .75em;
+                padding-bottom: 0;
+            }
+        }
+        #newsletter-form {
+            margin: 1em 0;
+            margin-bottom: 2em;
+            button {
+                text-wrap: nowrap;
+            }
+        }
+        #footer-top {
+            flex-direction: column;
+            align-items: center;
+            gap: 2em;
+            padding-top: 1.75em;
+            #footer-top-left {
+                width: 100%;
+            }
+            #footer-top-right {
+                grid-template-columns: repeat(2, 1fr);
+                width: 100%;
+            }
+        }
+        #footer-bottom {
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+            section {
+                width: 100%;
+                text-align: center;
+            }
+            ul {
+                justify-content: center;
+            }
+        }
+        #stats ul {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #stats ul li {
+            white-space: nowrap;
+        }
+        #stats li+li {
+            border: 0;
+        }
+        #stats li:nth-child(3) {
+            grid-column: span 2 / span 2;
+            text-align: center;
+        }
+    }
+</style>

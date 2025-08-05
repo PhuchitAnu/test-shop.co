@@ -1,0 +1,38 @@
+---
+const { name, star, price, normalprice, img } = Astro.props;
+---
+
+<div class="product-item">
+    <img src={img} alt={name} />
+    <h3>{name}</h3>
+    <section>
+        ⭐⭐⭐⭐⭐
+        <small>{star}/5 </small>
+    </section>
+    <strong>Price: ${price} <span>{normalprice}</span></strong>
+</div>
+<style>
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    img {
+        border-radius: 1em;
+        max-width: 100%;
+    }
+    h3 {
+        font-weight: bold;
+        font-size: 1em;
+        margin: 0.5em 0;
+    }
+    strong {
+        display: inline-block;
+        margin-top: .5em;
+        span {
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 0.1em;
+        }
+    }
+}
+</style>

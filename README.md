@@ -1,43 +1,61 @@
-# Astro Starter Kit: Minimal
+# Test Shop for learning (Design Prototype)
 
-```sh
-npm create astro@latest -- --template minimal
+This project is a **static e-commerce shop design** built with [Astro](https://astro.build/).  
+The design was first created in **Figma** and then implemented using **HTML** and **CSS only**.  
+⚠️ *Note: This is a design-only prototype. No backend, interactivity, or shop functionality is implemented.*
+
+---
+
+## 🚀 Tech Stack
+
+- **Design**: Figma  
+- **Framework**: Astro  s
+- **Languages**: HTML, CSS  
+- **Build Tooling**: Node.js + npm
+
+---
+
+## 📂 Project Structure
+
+The repo follows Astro’s default structure:
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
+├── public/              # Static assets (images, icons, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/      # Reusable Astro components
+│   ├── layouts/         # Page layouts
+│   └── pages/           # Individual pages (e.g., index.astro)
+├── astro.config.mjs     # Astro configuration
+├── package.json         # Project metadata & dependencies
+├── tsconfig.json        # TypeScript config (Astro default)
+└── README.md            # Project documentation
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🛠️ Setup & Local Development
 
-Any static assets, like images, can be placed in the `public/` directory.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/PhuchitAnu/test-shop.co.git
+   cd test-shop.co
+   ```
 
-## 🧞 Commands
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-All commands are run from the root of the project, from a terminal:
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+4. Open in your browser:  
+   [http://localhost:4321](http://localhost:4321)
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).

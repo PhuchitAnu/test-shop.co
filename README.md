@@ -6,10 +6,16 @@ The design was first created in **Figma** and then implemented using **HTML** an
 
 ---
 
+## 📸 Preview
+
+https://test-shop-co.pages.dev/
+
+---
+
 ## 🚀 Tech Stack
 
 - **Design**: Figma  
-- **Framework**: Astro  s
+- **Framework**: Astro
 - **Languages**: HTML, CSS  
 - **Build Tooling**: Node.js + npm
 
